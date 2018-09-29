@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("font-awesome.min.css");
-
-/*
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');/*
 	Big Picture by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
@@ -22,7 +21,8 @@ section, summary, time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	/*font: inherit;*/
+	font-family: 'Playfair Display', serif;
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -2263,17 +2263,6 @@ input, select, textarea {
 		background-position: top left, center center;
 	}
 
-/* Two-again */
-
-	#two-again {
-		background: url("images/overlay.png"), url("../../images/photo_4.jpg");
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
-	}
-
-/* Contact */
-
 	#contact {
 		overflow: hidden;
 		padding-bottom: 0;
@@ -2316,4 +2305,39 @@ input, select, textarea {
 
 .light-text {
 	color: ghostwhite;
+}
+
+p.smallify {
+	font-size: 11px
+}
+
+.email {
+	margin-right: 15px;
+	font-size: 11px;
+}
+
+.spaceleft {
+	margin-left: 5px;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 15px;
+}
+
+.columnify-left {
+	width: 50%;
+}
+
+.columnify-right {
+	width: 50%;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+#myInput {
+	font-size: .9em;
 }
