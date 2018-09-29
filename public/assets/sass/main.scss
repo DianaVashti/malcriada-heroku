@@ -4,6 +4,7 @@
 @import 'libs/vendor';
 @import 'libs/breakpoints';
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 @import url('font-awesome.min.css');
 
 /*
@@ -73,15 +74,6 @@
 
 	#two {
 		background: url('images/overlay.png'), url('../../images/photo_3.jpg');
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
-	}
-
-/* Two-again */
-
-	#two-again {
-		background: url('images/overlay.png'), url('../../images/photo_4.jpg');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
