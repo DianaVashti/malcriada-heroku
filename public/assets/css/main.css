@@ -1148,6 +1148,9 @@ input, select, textarea {
 
 	ul.icons {
 		cursor: default;
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
 	}
 
 		ul.icons li {
@@ -2316,4 +2319,34 @@ input, select, textarea {
 
 .light-text {
 	color: ghostwhite;
+}
+
+p.smallify {
+	font-size: 11px
+}
+
+.email {
+	margin-right: 15px;
+	font-size: 11px;
+}
+
+.spaceleft {
+	margin-left: 5px;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
+
+.columnify-left {
+	width: 30%;
+}
+
+.columnify-right {
+	width: 70%;
+}
+
+.underline {
+	text-decoration: underline;
 }
