@@ -540,7 +540,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 775px) {
 
 			body, input, textarea, select {
 				font-size: 12pt;
@@ -2257,7 +2257,7 @@ input, select, textarea {
 /* One-b */
 
 	#one-b {
-		background: url("images/overlay.png"), url("../../images/photo_4.jpg");
+		background: url("images/overlay.png"), url("../../images/photo_3.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2266,7 +2266,7 @@ input, select, textarea {
 /* Two */
 
 	#two {
-		background: url("images/overlay.png"), url("../../images/photo_3.jpg");
+		background: url("images/overlay.png"), url("../../images/photo_4.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2337,14 +2337,30 @@ p.smallify {
 
 .columnify-left {
 	width: 50%;
+	font-size: 11px;
 }
 
 .columnify-right {
 	width: 50%;
+	font-size: 11px;
+}
+
+.eleven {
+	font-size: 11px;
+}
+
+.left-align {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
 }
 
 .underline {
 	text-decoration: underline;
+}
+
+.thirteen {
+	font-size: 14px;
 }
 
 #myInput {
@@ -2356,4 +2372,12 @@ p.smallify {
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: flex-start;
+}
+
+#no-flex {
+	display: block;
+}
+
+.twenty-one {
+	font-size: 23px;
 }
