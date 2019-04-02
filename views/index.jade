@@ -187,16 +187,16 @@ html
         header.light-text
           h2 Serve Me
           form(id="myForm" action='https://formspree.io/MistressMercedesMalcriada@protonmail.com', method='POST')
-            input.pad-down(type='text', name='Name', placeholder="Name")
-            input.pad-down(type='text', name='Email', placeholder='Email')
-            textarea.pad-down(type='text', form='myForm', name='Desiredtypeofsession', placeholder='Desired type of session')
-            textarea.pad-down(type='text', form='myForm', name='Proposedsessiontime', placeholder='Proposed session length & dates, include multiple')
-            textarea.pad-down(type='text', form='myForm', name='Sessionlocation', placeholder='Session location (incall or outcall)')
-            textarea.pad-down(type='text', form='myForm', name='Yourexperiencewithbdsm', placeholder='Your experience wiith BDSM')
-            textarea.pad-down(type='text', form='myForm', name='Yourlimits', placeholder='Your limits')
-            textarea.pad-down(type='text', form='myForm', name='References', placeholder='References from 2 professionals with whom youve played. Include name, email & website')
-            textarea.pad-down(type='text', form='myForm', name='Anythingelse', placeholder='Anything else I should know about you?')
-            textarea.pad-down(type='text', form='myForm', name='How', placeholder='How did you find me?')
+            input.pad-down(type='text', name='Name', placeholder="Name" required)
+            input.pad-down(type='text', name='Email', placeholder='Email' required)
+            textarea.pad-down(type='text', form='myForm', name='Desiredtypeofsession', placeholder='Desired type of session' required)
+            textarea.pad-down(type='text', form='myForm', name='Proposedsessiontime', placeholder='Proposed session length & dates, include multiple' required)
+            textarea.pad-down(type='text', form='myForm', name='Sessionlocation', placeholder='Session location (incall or outcall)' required)
+            textarea.pad-down(type='text', form='myForm', name='Yourexperiencewithbdsm', placeholder='Your experience wiith BDSM' required)
+            textarea.pad-down(type='text', form='myForm', name='Yourlimits', placeholder='Your limits' required)
+            textarea.pad-down(type='text', form='myForm', name='References', placeholder='References from 2 professionals with whom youve played. Include name, email & website' required)
+            textarea.pad-down(type='text', form='myForm', name='Anythingelse', placeholder='Anything else I should know about you?' required)
+            textarea.pad-down(type='text', form='myForm', name='How', placeholder='How did you find me?' required)
             input.pad-down(type='submit', value='Send')
 
     // Footer
@@ -205,10 +205,7 @@ html
       ul.icons
         li
           a.icon.fa-instagram(href='https://www.instagram.com/mistress_mercedes/')
-            span.label Instagram
-            
-        li.email MistressMercedesMalcriada@gmail.com&nbsp;&nbsp;
-        
+            span.label Instagram        
     script(src='assets/js/jquery.min.js')
     script(src='assets/js/jquery.poptrox.min.js')
     script(src='assets/js/jquery.scrolly.min.js')
