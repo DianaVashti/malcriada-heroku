@@ -2381,3 +2381,22 @@ p.smallify {
 .twenty-one {
 	font-size: 23px;
 }
+
+.pad-down {
+	margin-bottom: 6px;
+}
+
+::-webkit-input-placeholder { /* Edge */
+  color: white;
+	opacity: 100;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+	opacity: 100;
+}
+
+::placeholder {
+  color: white;
+	opacity: 100;
+}
